@@ -2822,7 +2822,7 @@ function get_each_context(ctx, list, i) {
 	return child_ctx;
 }
 
-// (108:6) {#each list_items as { icon, label }}
+// (110:6) {#each list_items as { icon, label }}
 function create_each_block(ctx) {
 	let li;
 	let span0;
@@ -2863,9 +2863,9 @@ function create_each_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(span0, "class", "icon svelte-a33zmq");
-			attr(span1, "class", "label svelte-a33zmq");
-			attr(li, "class", "svelte-a33zmq");
+			attr(span0, "class", "icon svelte-15ejhpv");
+			attr(span1, "class", "label svelte-15ejhpv");
+			attr(li, "class", "svelte-15ejhpv");
 		},
 		m(target, anchor) {
 			insert_hydration(target, li, anchor);
@@ -3019,18 +3019,18 @@ function create_fragment(ctx) {
 		h() {
 			if (!src_url_equal(img.src, img_src_value = /*card*/ ctx[0].image.url)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*card*/ ctx[0].image.url);
-			attr(img, "class", "svelte-a33zmq");
-			attr(div0, "class", "title svelte-a33zmq");
-			attr(div1, "class", "description subheading svelte-a33zmq");
-			attr(a, "class", "button svelte-a33zmq");
+			attr(img, "class", "svelte-15ejhpv");
+			attr(div0, "class", "title svelte-15ejhpv");
+			attr(div1, "class", "description subheading svelte-15ejhpv");
+			attr(a, "class", "button svelte-15ejhpv");
 			attr(a, "href", a_href_value = /*card*/ ctx[0].link.url);
-			attr(div2, "class", "card-content svelte-a33zmq");
-			attr(div3, "class", "card svelte-a33zmq");
+			attr(div2, "class", "card-content svelte-15ejhpv");
+			attr(div3, "class", "card svelte-15ejhpv");
 			attr(h2, "class", "heading");
-			attr(h3, "class", "subheading svelte-a33zmq");
-			attr(ul, "class", "svelte-a33zmq");
-			attr(div4, "class", "main svelte-a33zmq");
-			attr(section, "class", "section-container svelte-a33zmq");
+			attr(h3, "class", "subheading svelte-15ejhpv");
+			attr(ul, "class", "svelte-15ejhpv");
+			attr(div4, "class", "main svelte-15ejhpv");
+			attr(section, "class", "section-container svelte-15ejhpv");
 		},
 		m(target, anchor) {
 			insert_hydration(target, section, anchor);
